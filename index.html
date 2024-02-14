@@ -1,0 +1,82 @@
+<!Doctype HTML>
+
+<html>
+
+	<head>
+		<title>Good Dinosavr</title>
+		<meta charset="utf-8">
+		<!-- Підключи файл стилів -->
+        <link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body>
+	
+		<header id="about" class="container_about">
+		
+			<div>
+				<div class="film_name"><h1>Добрий Динозавр</h1></div>
+				<div class="film_about">Анімаційне пригода «Добрий динозавр» від Disney / Pixar розповідає історію неймовірної дружби
+								юного бронтозавра і маленького хлопчика. Цим, на перший погляд, не схожим героям належить разом зробити
+								небезпечну подорож і зрозуміти, що вони не так вже й відрізняються один від одного.
+				</div>
+			</div>
+			
+			<nav>
+				<ul>
+					<li><a href="#about">ГОЛОВНА</a></li>
+					<li><a href="#video">ВІДЕО</a></li>
+					<li><a href="#audio">МУЗИКА</a></li>
+				</ul>
+			</nav>
+
+	</header>
+	
+	<!-- Замість video1 і  video2 добав самі відео файли-->
+	<section id="video" class="container_video">	
+		<div>
+			<div class="video1">
+				<video controls width="450" height="300" poster="images/poster1.jpg" preload="none">
+					<source src="video/video1.mp4" type="video/mp4">
+				</video>
+			</div>
+            <div class="video2">
+				<iframe width="450" height="300" src="https://www.youtube.com/embed/KucMRCG1WJI" frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+		
+		<div class="video_header">
+			<h2>Моменти з фільму</h2>
+		</div>
+	</section>
+	
+	<section id="audio" class="container_audio">
+		
+			<div class="audio_header">
+				<h2>Музика з фільму</h2>
+			</div>
+			
+			<div class="audio_files">
+				<ul>
+					<li>
+						<p>Hello Arlo</p>
+						<audio src="music/ost1.mp3" controls ></audio>	
+					</li>
+					<li>
+						<p>Lost in The World</p>
+						<audio src="music/ost2.mp3" controls></audio>					
+					</li>
+					<li>
+						<p>You're Me and More</p>
+						<audio src="music/ost3.mp3" controls ></audio>
+					</li>
+				</ul>
+				
+			</div>
+		
+		
+	</section>
+	
+	</body>
+
+</html>
